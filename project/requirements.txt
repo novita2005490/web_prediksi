@@ -1,0 +1,7 @@
+streamlit
+pandas
+pickle-mixin
+matplotlib
+seaborn
+statsmodels
+openpyxl
