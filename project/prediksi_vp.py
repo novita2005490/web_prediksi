@@ -83,7 +83,7 @@ if st.button('Predict'):
     # Menambahkan tombol untuk mengunduh tabel prediksi
     csv = convert_df_to_csv(pred_df.head(year_to_predict).reset_index(drop=True))
     st.download_button(
-        label="Download tabel prediksi sebagai CSV",
+        label="Download",
         data=csv,
         file_name='prediksi_volume_produksi.csv',
         mime='text/csv',
