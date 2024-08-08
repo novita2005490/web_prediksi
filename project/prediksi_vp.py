@@ -29,7 +29,7 @@ def convert_df_to_csv(df):
     return df.to_csv(index=False).encode('utf-8')
 
 # Setup Streamlit
-st.title('📈 Prediksi Volume Produksi Perikanan Tangkap Laut')
+st.title('📈 Prediksi Volume Produksi Perikanan Tangkap')
 st.markdown('## PPP Tegalsari Kota Tegal')
 st.markdown('### Prediksi Volume Produksi untuk 10 Tahun ke Depan')
 
